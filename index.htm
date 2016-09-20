@@ -141,7 +141,7 @@ Installation</h2>
 <h3><a class="anchor" id="Windows"></a>
 Windows</h3>
 <ul>
-<li>Obtain the latest version of PROS for Windows from the <a href="http://www.sourceforge.net/projects/purdueros/files">download site</a>. Select the 32 or 64- bit version to match the running version of Windows.</li>
+<li>Obtain the latest version of PROS for Windows from the <a href="https://github.com/purduesigbots/purdueros/releases">download site</a>. Select the 32 or 64- bit version to match the running version of Windows.</li>
 <li>Run the downloaded installer. If a dialog box appears requesting permission to modify the computer, select Yes; otherwise, PROS will not be able to install the IDE. <div class="image">
 <img src="uac_install.png" alt="uac_install.png"/>
 <div class="caption">
@@ -168,7 +168,7 @@ Prompt to install VEX drivers for new programming cable</div></div>
 <h3><a class="anchor" id="Linux"></a>
 Linux</h3>
 <ul>
-<li>Obtain the latest version of PROS for Linux from the <a href="http://www.sourceforge.net/projects/purdueros/files">download site</a>. Select the 32 or 64- bit version to match the running version of Linux. <em>Some 64-bit computers may have 32-bit Linux installed. To find out for sure, use</em> <code>uname -m</code>. <div class="image">
+<li>Obtain the latest version of PROS for Linux from the <a href="https://github.com/purduesigbots/purdueros/releases">download site</a>. Select the 32 or 64- bit version to match the running version of Linux. <em>Some 64-bit computers may have 32-bit Linux installed. To find out for sure, use</em> <code>uname -m</code>. <div class="image">
 <img src="unamem.png" alt="unamem.png"/>
 <div class="caption">
 Use 'uname -m' to determine Linux 32/64 bit version</div></div>
@@ -190,7 +190,7 @@ PROS will appear in the main menu</div></div>
 <h3><a class="anchor" id="Mac"></a>
 Mac OS X</h3>
 <ul>
-<li>Obtain the latest version of PROS for Mac OS X from the <a href="http://www.sourceforge.net/projects/purdueros/files">download site</a>.</li>
+<li>Obtain the latest version of PROS for Mac OS X from the <a href="https://github.com/purduesigbots/purdueros/releases">download site</a>.</li>
 <li>Run the downloaded installer <code>.pkg</code>. Accept the license agreement to install PROS. <div class="image">
 <img src="install_mac.png" alt="install_mac.png"/>
 <div class="caption">
@@ -370,7 +370,7 @@ C Basics</h2>
 <h2><a class="anchor" id="Project"></a>
 PROS Project Structure</h2>
 <p>PROS projects are internally composed of three parts: the <em>user code</em>, the <em>PROS library</em> and the <em>header files</em>.</p>
-<p>The <em>PROS library</em> is a single file containing the core PROS routines. This file does not need to be changed. If there appears to be an issue with a core PROS function, please file an issue on the <a href="http://sourceforge.net/p/purdueros/tickets">PROS website</a>.</p>
+<p>The <em>PROS library</em> is a single file containing the core PROS routines. This file does not need to be changed. If there appears to be an issue with a core PROS function, please file an issue on the <a href="https://github.com/purduesigbots/purdueros/issues">PROS website</a>.</p>
 <p>The <em>header files</em> are all found in the <code>include</code> directory. One header file, <code><a class="el" href="a00003.htm" title="Provides the high-level user functionality intended for use by typical VEX Cortex programmers...">API.h</a></code>, is required to declare the PROS library functions, and also serves as a quick reference. The other file, <code><a class="el" href="a00004.htm" title="Header file for global functions. ">main.h</a></code>, is intended for declaring functions and variables shared between the <em>user code</em> files. New header files can be created in the <code>include</code> directory, as long as the name ends with <code>.h</code>. </p><div class="image">
 <img src="new_header.png" alt="new_header.png"/>
 <div class="caption">
